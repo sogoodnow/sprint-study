@@ -8,6 +8,7 @@
     <version>1.0.1</version>
     <modules>
         <module>service</module>
+        <module>entity</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -31,6 +32,12 @@
             <dependency>
                 <groupId>com.qiu</groupId>
                 <artifactId>service</artifactId>
+                <version>1.0.1</version>
+            </dependency>
+            <dependency>
+                <groupId>com.qiu</groupId>
+                <artifactId>entity</artifactId>
+                <version>1.0.1</version>
             </dependency>
 
         </dependencies>
